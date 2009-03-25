@@ -1,4 +1,5 @@
 #summary How to quickly start using PandaPy.
+#labels Featured,Phase-Deploy
 
 = Pandanet IGS account =
 
