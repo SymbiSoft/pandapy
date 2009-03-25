@@ -1,0 +1,41 @@
+#summary How to quickly start using PandaPy.
+
+= Pandanet IGS account =
+
+If you do not have an IGS account, then create one at
+http://www.pandanet.co.jp/English/register/index.htm .
+
+http://www.playgo.to/interactive/ will introduce you
+to the wonderful game of Go/Baduk/Weiqi.
+
+= Phone requirements =
+
+You can use PandaPy on a mobile phone which uses either
+of Symbian S60v1, S60v2 or S60v3.
+
+= Usage options =
+
+ # Either run the PandaPy_vx_x_x.py script from the Python Script Shell,
+ # or run the installation of PandaPy, that is PandaPy_vx_x_x_S60vx.sis.
+
+= Installation instructions =
+
+ # Install Python for S60 v1.4.5 and Python Script Shell for your specific phone OS type, which is to be found at http://sourceforge.net/project/showfiles.php?group_id=154155&package_id=171153&release_id=644640
+ # Ensure that there is a C:\Python\ directory on your phone filesystem.
+ # Either copy the PandaPy_vx_x_x.py script to your phone C:\Python\ directory,
+ # or install the PandaPy_vx_x_x_S60vx.sis file (currently only available for S60v3).
+
+= Usage instructions =
+
+ # Once you started the script or application, choose your default access point (GPRS/3G/Wifi) in the form that will be shown first.
+ # Enter your IGS username and password in the second form shown.
+ # Observe a game by specifying the player strength range, e.g. 20k-7k, 6k-15k, 8k-3d, 2d-1k, 9d-1p, 10d-9p, 20k-8p etc.
+ # Play a game either by Play->Automatch, Play->Match or Play->User. It is suggested that the Automatch option be used, since it sets the correct handicap and komi for the game.
+  # Use Play->Automatch if you want automatic game requests sent to the player strength range (with an 'o' at the end to specify users that are open for games), e.g. 16k-14k o, 2k-2d o, 5k o, 9k-10k o, 3d-6d o etc. The 'Size' parameter in the shown form is 19. The 'Main time' parameter is the amount of time each player has (in minutes) before the Canadian byo-yomi starts, e.g. 10, 11, 15, 20 etc. The 'Byo time' is the amount of time each player has for a default of 25 stones to be played, e.g. 10, 12, 13, 30 etc. The 'Stones' parameter changes the default of 25 stones to any amount of stones you specify for a byo-yomi period, e.g. 10, 15, 20, 25 etc.
+  # Use Play->Match if you want to choose from a list of potential opponents to whom game requests will be sent. You also have to specify the player strength range as for the Play->Automatch option.
+  # Use Play->User option if you want to send a game request to a specific user.
+  # In most cases if the last user to be sent a game request accepts to play with you, the game will be opened automatically. Otherwise you will receive a game request from one of the players you challenged, which you can then accept or decline.
+ # The Settings->Speech On option states that the speech is currently on, if it is selected and entered, the speech will change to Off.
+ # The Settings->Singlegame parameter specifies whether you can only play one game or multiple games.
+ # Settings->Open sets you open for game requests, or sets open off if you do not want to receive game requests.
+ # Check Help if you want to see a quick key assignment reference.
