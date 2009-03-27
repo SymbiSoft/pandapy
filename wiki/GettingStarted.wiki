@@ -29,7 +29,7 @@ of Symbian S60v1, S60v2 or S60v3.
 = Usage instructions =
 
  # Once you started the script or application, choose your default access point (GPRS/3G/Wifi) in the form that will be shown first.
- # Enter your IGS username and password in the second form shown.
+ # Enter your IGS username and password in the second form shown, or just login as a guest with no password. If you are logged in as a guest, you cannot play games, but you can observe.
  # Observe a game by specifying the player strength range, e.g. 20k-7k, 6k-15k, 8k-3d, 2d-1k, 9d-1p, 10d-9p, 20k-8p etc.
  # Play a game either by Play->Automatch, Play->Match or Play->User. It is suggested that the Automatch option be used, since it sets the correct handicap and komi for the game.
   # Use Play->Automatch if you want automatic game requests sent to the player strength range (with an 'o' at the end to specify users that are open for games), e.g. 16k-14k o, 2k-2d o, 5k o, 9k-10k o, 3d-6d o etc. The 'Size' parameter in the shown form is 19. The 'Main time' parameter is the amount of time each player has (in minutes) before the Canadian byo-yomi starts, e.g. 10, 11, 15, 20 etc. The 'Byo time' is the amount of time each player has for a default of 25 stones to be played, e.g. 10, 12, 13, 30 etc. The 'Stones' parameter changes the default of 25 stones to any amount of stones you specify for a byo-yomi period, e.g. 10, 15, 20, 25 etc.
