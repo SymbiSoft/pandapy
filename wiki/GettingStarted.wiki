@@ -27,7 +27,7 @@ of Symbian S60v1 (script), S60v2 (script) or S60v3 (script or install).
  # <font color="green">or install the [http://pandapy.googlecode.com/files/PandaPy_v1_0_0_S60v3.sis PandaPy_v1_0_0_S60v3.sis] file (currently only available for S60v3). You may need to sign the application first.</font>
 
 = <font color="red">Extra Features? Bugs? Is it working?</font> =
-<font color="red"> What mobile device are you using? Is there a recommendation or request you want to make? Is there a bug that you want fixed? If so please add it to the Issues page. </font>
+<font color="red"> What mobile device are you using? Is there a recommendation or request you want to make? Is there a bug that you want fixed? If so please add it to the [http://code.google.com/p/pandapy/issues/list Issues page]. </font>
 
 = Usage instructions =
 
