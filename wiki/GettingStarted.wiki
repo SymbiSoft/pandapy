@@ -7,12 +7,13 @@ If you do not have an IGS account, then create one at
 http://www.pandanet.co.jp/English/register/index.htm .
 
 http://www.playgo.to/interactive/ will introduce you
-to the wonderful game of Go/Baduk/Weiqi.
+to the wonderful game of Go/Igo/Baduk/Weiqi.
 
 = Phone requirements =
 
 You can use PandaPy on a mobile phone which uses either
 of Symbian S60v1 (script), S60v2 (script) or S60v3 (script or install).
+
 Currently the supported resolution is 240x320. If you would like the
 application to be modified for a different resolution, please create
 a request under Issues.
