@@ -1,5 +1,5 @@
 #summary How to quickly start using PandaPy.
-#labels Featured,Phase-Deploy
+#labels Featured
 
 = Pandanet IGS account =
 
@@ -13,21 +13,24 @@ to the wonderful game of Go/Baduk/Weiqi.
 
 You can use PandaPy on a mobile phone which uses either
 of Symbian S60v1 (script), S60v2 (script) or S60v3 (script or install).
+Currently the supported resolution is 240x320. If you would like the
+application to be modified for a different resolution, please create
+a request under Issues.
 
 = Usage options =
 
  # Either run the [http://pandapy.googlecode.com/files/PandaPy_v1_0_1.py PandaPy_v1_0_1.py] script from the Python Script Shell,
- # or run the installation of PandaPy, that is [http://pandapy.googlecode.com/files/PandaPy_v1_0_1_S60v3.sis PandaPy_v1_0_1_S60v3.sis].
+ # or run the installation of PandaPy (to be installed on C:\), that is [http://pandapy.googlecode.com/files/PandaPy_v1_0_1_S60v3.sis PandaPy_v1_0_1_S60v3.sis].
 
 = <font color="green">Installation instructions</font> =
 
  # <font color="green">Install Python for S60 v1.4.5 and Python Script Shell for your specific phone OS type, which is to be found at http://sourceforge.net/project/showfiles.php?group_id=154155&package_id=171153&release_id=644640 </font>
  # <font color="green">Ensure that there is a C:\Python\ directory on your phone filesystem.</font>
  # <font color="green">Either copy the [http://pandapy.googlecode.com/files/PandaPy_v1_0_1.py PandaPy_v1_0_1.py] script to your phone C:\Python\ directory,</font>
- # <font color="green">or install the [http://pandapy.googlecode.com/files/PandaPy_v1_0_1_S60v3.sis PandaPy_v1_0_1_S60v3.sis] file (currently only available for S60v3). You may need to sign the application first.</font>
+ # <font color="green">or install the [http://pandapy.googlecode.com/files/PandaPy_v1_0_1_S60v3.sis PandaPy_v1_0_1_S60v3.sis] file (currently only available for S60v3) in the device C:\ directory. You may need to sign the application first.</font>
 
 = <font color="red">Extra Features? Bugs? Is it working?</font> =
-<font color="red"> What mobile device are you using? Is there a recommendation or request you want to make? Is there a bug that you want fixed? If so please add it to the [http://code.google.com/p/pandapy/issues/list Issues page]. Please note that this application was developed on a Nokia N82, so I can make GUI modifications if your phone happens to have a resolution different than 240x320.</font>
+<font color="red"> What mobile device are you using? Is there a recommendation or request you want to make? Is there a bug that you want fixed? If so please add it to the [http://0-code.google.com.innopac.up.ac.za/p/pandapy/issues/list Issues page]. Please note that this application was developed on a Nokia N82, so I can make GUI modifications if your phone happens to have a resolution different than 240x320.</font>
 
 = Usage instructions =
 
