@@ -47,3 +47,7 @@ a request under Issues.
  # The Settings->*Singlegame* parameter specifies whether you can only play one game or multiple games.
  # Settings->*Open* sets you open for game requests, or sets open off if you do not want to receive game requests.
  # Check *Help* if you want to see a quick *key assignment* reference.
+
+----
+
+If you have an issue or feature you want to request or check the status of, please go to the [http://0-code.google.com.innopac.up.ac.za/p/pandapy/issues/list Issues] page.
