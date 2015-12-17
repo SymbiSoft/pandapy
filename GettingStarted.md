@@ -1,0 +1,52 @@
+# Pandanet IGS account #
+
+If you do not have an IGS account, then create one at
+http://www.pandanet.co.jp/English/register/index.htm .
+
+http://www.playgo.to/interactive/ will introduce you
+to the wonderful game of Go/Igo/Baduk/Weiqi.
+
+# Phone requirements #
+
+You can use PandaPy on a mobile phone which uses either
+of Symbian S60v1 (script), S60v2 (script) or S60v3 (script or install).
+
+Currently the supported resolution is 240x320. If you would like the
+application to be modified for a different resolution, please create
+a request under Issues.
+
+# Usage options #
+
+  1. Either run the [PandaPy\_v1\_1\_2.py](http://pandapy.googlecode.com/files/PandaPy_v1_1_2.py) script from the Python Script Shell,
+  1. or run the installation of PandaPy (to be installed on C:\), that is [PandaPy\_v1\_1\_2\_S60v3.sis](http://pandapy.googlecode.com/files/PandaPy_v1_1_2_S60v3.sis).
+
+# <font color='green'>Installation instructions</font> #
+
+  1. <font color='green'>Install Python for S60 v1.4.5 and Python Script Shell for your specific phone OS type, which is to be found at <a href='http://sourceforge.net/project/showfiles.php?group_id=154155&package_id=171153&release_id=644640'>http://sourceforge.net/project/showfiles.php?group_id=154155&amp;package_id=171153&amp;release_id=644640</a> </font>
+  1. <font color='green'>Ensure that there is a C:\Python\ directory on your phone filesystem.</font>
+  1. <font color='green'>Either copy the <a href='http://pandapy.googlecode.com/files/PandaPy_v1_1_2.py'>PandaPy_v1_1_2.py</a> script to your phone C:\Python\ directory,</font>
+  1. <font color='green'>or install the <a href='http://pandapy.googlecode.com/files/PandaPy_v1_1_2_S60v3.sis'>PandaPy_v1_1_2_S60v3.sis</a> file (currently only available for S60v3) in the device C:\ directory. You may need to sign the application first.</font>
+
+# <font color='red'>Extra Features? Bugs? Is it working?</font> #
+<font color='red'> What mobile device are you using? Is there a recommendation or request you want to make? Is there a bug that you want fixed? If so please add it to the <a href='http://0-code.google.com.innopac.up.ac.za/p/pandapy/issues/list'>Issues page</a>. Please note that this application was developed on a Nokia N82, so I can make GUI modifications if your phone happens to have a resolution different than 240x320.</font>
+
+# Usage instructions #
+
+  1. Once you started the script or application, choose your **default access point** (GPRS/3G/Wifi) in the form that will be shown first.
+  1. Enter your IGS **username** and **password** in the second form shown, or just login as a guest with no password. If you are logged in as a guest, you cannot play games, but you can observe.
+  1. **Observe** a game by specifying the player strength range, e.g. 20k-7k, 6k-15k, 8k-3d, 2d-1k, 9d-1p, 10d-9p, 20k-8p etc.
+  1. **Play** a game either by Play->Automatch, Play->Match or Play->User. It is suggested that the Automatch option be used, since it sets the correct handicap and komi for the game.
+    1. Use Play->**Automatch** if you want automatic game requests sent to the player strength range (with an 'o' at the end to specify users that are open for games), e.g. 16k-14k o, 2k-2d o, 5k o, 9k-10k o, 3d-6d o etc. The 'Size' parameter in the shown form is 19. The 'Main time' parameter is the amount of time each player has (in minutes) before the Canadian byo-yomi starts, e.g. 10, 11, 15, 20 etc. The 'Byo time' is the amount of time each player has for a default of 25 stones to be played, e.g. 10, 12, 13, 30 etc. The 'Stones' parameter changes the default of 25 stones to any amount of stones you specify for a byo-yomi period, e.g. 10, 15, 20, 25 etc.
+    1. Use Play->**Match** if you want to choose from a list of potential opponents to whom game requests will be sent. You also have to specify the player strength range as for the Play->Automatch option.
+    1. Use Play->**User** option if you want to send a game request to a specific user.
+    1. In most cases if the last user to be sent a game request accepts to play with you, the game will be opened automatically. Otherwise you will **receive a game request** from one of the players you challenged, which you can then accept or decline.
+  1. The Settings->**Speech On** option states that the speech is currently on, if it is selected and entered, the speech will change to Off.
+  1. The Settings->**Singlegame** parameter specifies whether you can only play one game or multiple games.
+  1. Settings->**Open** sets you open for game requests, or sets open off if you do not want to receive game requests.
+  1. Check **Help** if you want to see a quick **key assignment** reference.
+
+
+---
+
+
+If you have an issue or feature you want to request or check the status of, please go to the [Issues](http://code.google.com/p/pandapy/issues/list) page.
